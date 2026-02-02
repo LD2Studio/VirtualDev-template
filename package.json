@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A template for creating a virtual world with VirtualDev framework.",
   "main": "index.js",
+  "bin": {
+    "create-virtual-app": "./index.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
